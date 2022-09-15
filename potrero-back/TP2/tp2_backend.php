@@ -7,6 +7,7 @@
     <title>trabajo practico 2</title>
 </head>
 <body>
+   <h3> Ejercicio 1 </h3>
     <?php
 
     $numeropositivo = 1;
@@ -17,6 +18,7 @@
 
     ?>
     <br>
+    <h3> Ejercicio 2 </h3>
     <?php
 
     $numero = 5;
@@ -26,6 +28,7 @@
     } 
     ?>
     <br>
+    <h3> Ejercicio 3 </h3>
     <?php
 
     $numero3 = 15;
@@ -36,6 +39,7 @@
 
     ?>
     <br>
+    <h3> Ejercicio 4 </h3>
     <?php
     $numero1 = 25;
     $numero2 = 20;
