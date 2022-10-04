@@ -32,5 +32,13 @@
     }
 
     ?>
-</body>
+      <h3> Ejercicio N 5 </h3>
+    <?php
+ $ciudades = ["Madrid", "Barcelona", "Londres", "New York", "Los Angeles", "Chicago"];
+ print_r($ciudades);
+    foreach ($ciudades as $indice => $valor) {
+        print "<p>El indice de Madrid es : $valor[0]$valor[2]</p>";
+        return $indice;
+    }
+?></body>
 </html>
