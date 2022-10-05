@@ -10,35 +10,37 @@
     <h3>Ejercicio N 1</h3>
     <?php
     $numerospares = [2,4,6,8,10,12,14,16,18,20];
-    echo "<br>";
-    print_r ($numerospares);
+    foreach($numerospares as $valor) {
+        print ("<p> $valor</p>");
+    }    
     ?>
     <h3>Ejercicio N 2</h3>
     <?php
     $datos = [ 'Pedro' => 34, 'Ana'  => 1];
-    print_r($datos);
+    foreach ($datos as $valor) {
+        print("<p>$valor</p>");
+    }    
     ?>
     <h3>Ejercicio N 3</h3>
     <?php
     $datos2 = ['nombre' => "Pedro" , 'apellido' => "Torres", 'direccion' => "Av Mayor 3703", 'telefono' => 1122334455];
-    print_r($datos2);
+    foreach($datos2 as $valor) {
+        print ("<p>$valor</p>");
+    }    
     ?>
     <h3>Ejercicio N 4</h3>
     <?php
     $ciudades = ["Madrid", "Barcelona", "Londres", "New York", "Los Angeles", "Chicago"];
-    print_r($ciudades);
-    foreach ($ciudades as $valor) {
-        print " <p> $valor </p>";
-    }
-
+    foreach ($ciudades as $indice => $valor) {
+        print "<p>La ciudad conel indice $indice tiene el nombre de : $valor</p>";
+    }    
     ?>
       <h3> Ejercicio N 5 </h3>
     <?php
- $ciudades = ["Madrid", "Barcelona", "Londres", "New York", "Los Angeles", "Chicago"];
- print_r($ciudades);
-    
-    foreach ($ciudades as $indice => $valor) {
-       print "<p>La ciudad con el indice $indice tiene el nombre de $valor</p>";
+        $ciudades = ["MD"=>"Madrid","BCL"=> "Barcelona","LD"=> "Londres","NY"=> "New York","LA"=> "Los Angeles","CCG"=> "Chicago"];
+        foreach ($ciudades as $indice => $valor) {
+        print "<p>La ciudad con el indice $indice tiene el nombre de $valor</p>";
     }
-?></body>
+    ?>
+  </body>
 </html>
