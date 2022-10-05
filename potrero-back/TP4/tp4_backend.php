@@ -36,9 +36,9 @@
     <?php
  $ciudades = ["Madrid", "Barcelona", "Londres", "New York", "Los Angeles", "Chicago"];
  print_r($ciudades);
+    
     foreach ($ciudades as $indice => $valor) {
-        print "<p>El indice de Madrid es : $valor[0]$valor[2]</p>";
-        return $indice;
+       print "<p>La ciudad con el indice $indice tiene el nombre de $valor</p>";
     }
 ?></body>
 </html>
