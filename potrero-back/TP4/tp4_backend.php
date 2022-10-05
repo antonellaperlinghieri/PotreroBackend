@@ -17,9 +17,7 @@
     <h3>Ejercicio N 2</h3>
     <?php
     $datos = [ 'Pedro' => 34, 'Ana'  => 1];
-    foreach ($datos as $valor) {
-        print("<p>$valor</p>");
-    }    
+    print_r ("<p>$datos</p>")   
     ?>
     <h3>Ejercicio N 3</h3>
     <?php
